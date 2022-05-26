@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mongodb": "^4.6.0",
+    "moralis": "^1.7.0"
+  }
+}

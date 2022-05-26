@@ -1,0 +1,63 @@
+interface User {
+	chain: string
+	address: string
+	dataStartBlock: number
+	dataEndBlock: number
+	erc20History: ERC20TransferEvent[]
+	NFTHistory: NFTTransferEvent[]
+	ERC20s: ERC20[]
+	NFTs: NFT[]
+}
+
+interface ERC20Metadata {
+	chain: string
+	tokenAddress: string
+  tokenName: string
+  tokenSymbol: string
+  logo: string
+  decimals: number
+	validated: boolean
+}
+
+interface NFTMetadata {
+	chain: string
+	tokenAddress: string
+  tokenName: string
+  tokenSymbol: string
+	contractType: 'ERC721' | 'ERC1155'
+}
+
+interface ERC20TransferEvent {
+	chain: string
+	tokenAddress: string
+	timestamp: number
+	from: string
+	to: string
+	value: number
+}
+
+interface NFTTransferEvent {
+	chain: string
+	tokenAddress: string
+	tokenID: number
+	amount: number
+	value: number
+	timestamp: number
+	from: string
+	to: string
+}
+
+interface ERC20 {
+	chain: string
+	tokenAddress: string
+	balance: number
+}
+
+interface NFT {
+	chain: string
+	tokenAddress: string
+	tokenID: number
+	amount: number
+	tokenURI: string
+	metadata: string
+}

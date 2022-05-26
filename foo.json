@@ -1,0 +1,155 @@
+[
+    {
+        "token_address": "0x73374ea518de7addd4c2b624c0e8b113955ee041",
+        "name": "Juggernaut DeFi",
+        "symbol": "JGN",
+        "logo": "https://cdn.moralis.io/eth/0x73374ea518de7addd4c2b624c0e8b113955ee041.png",
+        "thumbnail": "https://cdn.moralis.io/eth/0x73374ea518de7addd4c2b624c0e8b113955ee041_thumb.png",
+        "decimals": 18,
+        "balance": "18000000000000000000"
+    },
+    {
+        "token_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "logo": "https://cdn.moralis.io/eth/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
+        "thumbnail": "https://cdn.moralis.io/eth/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984_thumb.png",
+        "decimals": 18,
+        "balance": "4017177120119504229327847"
+    },
+    {
+        "token_address": "0xb7929681b3a2a2a97d84cfe6d73576d075fce696",
+        "name": "Hoprnet Token",
+        "symbol": "HOPR",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "5156180765438856419464"
+    },
+    {
+        "token_address": "0xca1262e77fb25c0a4112cfc9bad3ff54f617f2e6",
+        "name": "Wrapped JAXNET",
+        "symbol": "WJXN",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 0,
+        "balance": "10"
+    },
+    {
+        "token_address": "0x34278f6f40079eae344cbac61a764bcf85afc949",
+        "name": "FF9.io",
+        "symbol": "FF9.io",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "300000000000000000000000"
+    },
+    {
+        "token_address": "0xebf698ede71af52ab1acb12975472ba2e302e810",
+        "name": "FerrariToken",
+        "symbol": "Ferrari",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "67568000000000000"
+    },
+    {
+        "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "logo": "https://cdn.moralis.io/eth/0xdac17f958d2ee523a2206206994597c13d831ec7.png",
+        "thumbnail": "https://cdn.moralis.io/eth/0xdac17f958d2ee523a2206206994597c13d831ec7_thumb.png",
+        "decimals": 6,
+        "balance": "1000"
+    },
+    {
+        "token_address": "0xa22134b7b18f1207414b69fcb3bdc6c6f18d7a78",
+        "name": "BadgerDAO.io",
+        "symbol": "BADGER",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "800000000000000000000000"
+    },
+    {
+        "token_address": "0xc0748cf90e231b8f21f75b7ad69732f19c76b751",
+        "name": "dotc.pro token",
+        "symbol": "DOTC",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 12,
+        "balance": "900000000000"
+    },
+    {
+        "token_address": "0x4af9ab04615cb91e2ee8cbedb43fb52ed205041b",
+        "name": "KHEX.net",
+        "symbol": "KHEX.net",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "242321000000000000000000"
+    },
+    {
+        "token_address": "0x2ceee24f8d03fc25648c68c8e6569aa0512f6ac3",
+        "name": "ABCHANGE.io",
+        "symbol": "XCH",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 9,
+        "balance": "298131000000000"
+    },
+    {
+        "token_address": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
+        "name": "Falcon",
+        "symbol": "FNT",
+        "logo": "https://cdn.moralis.io/eth/0xdc5864ede28bd4405aa04d93e05a0531797d9d59.png",
+        "thumbnail": "https://cdn.moralis.io/eth/0xdc5864ede28bd4405aa04d93e05a0531797d9d59_thumb.png",
+        "decimals": 6,
+        "balance": "400000000"
+    },
+    {
+        "token_address": "0x82dfdb2ec1aa6003ed4acba663403d7c2127ff67",
+        "name": "akSwap.io",
+        "symbol": "akSwap.io",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "250000000000000000000000"
+    },
+    {
+        "token_address": "0xd622e61bdbb5f1d43614be5c6e86d572486b0888",
+        "name": "lightning exchange finance",
+        "symbol": "LEF",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "2000000000000000000"
+    },
+    {
+        "token_address": "0xec5483804e637d45cde22fa0869656b64b5ab1ab",
+        "name": "ACENT",
+        "symbol": "ACE",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "45000000000000000000"
+    },
+    {
+        "token_address": "0x364a7381a5b378ced7ab33d1cdf6ff1bf162bfd6",
+        "name": "DeFi-X Token",
+        "symbol": "TGX",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "10470000000000000000"
+    },
+    {
+        "token_address": "0x5c71bf122b5e1eec7fb2cf029d6fab7b224bd94f",
+        "name": "DeFi-X USD",
+        "symbol": "xUSD",
+        "logo": null,
+        "thumbnail": null,
+        "decimals": 18,
+        "balance": "1666666000000000000"
+    }
+]
