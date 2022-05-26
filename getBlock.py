@@ -8,7 +8,7 @@ myclient = pymongo.MongoClient("mongodb://localhost:27017")
 # print(dblist)
 
 mydb = myclient["DB"]
-block = mydb["Blocks"]w
+block = mydb["Blocks"]
 user = mydb["User"]
 
 headers = {"X-API-Key": "MJR9J19aQ2DKtfoY69Qe2DrhjmufP6IQa46HeHWlNGd6TmaOyMP3RKtjMksMfe5Y"}
