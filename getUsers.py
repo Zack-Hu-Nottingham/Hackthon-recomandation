@@ -1,36 +1,3 @@
-# import requests
-# import pymongo
-# import json
-# import csv
-
-# myclient = pymongo.MongoClient("mongodb://localhost:27017")
-
-# mydb = myclient["DB"]
-# user = mydb["User"]
-
-# data = []
-
-# url = "https://deep-index.moralis.io/api/v2/"
-# headers = {"X-API-Key": "MJR9J19aQ2DKtfoY69Qe2DrhjmufP6IQa46HeHWlNGd6TmaOyMP3RKtjMksMfe5Y"}
-
-
-# with open("foo.CSV") as csvFile:
-#     csvReader = csv.DictReader(csvFile)
-#     for row in csvReader:
-#         # print(row['Address'])
-#         r = requests.get(url+str(row['Address'])+"erc20", headers=headers)
-#         foo = json.loads(r.text)
-#         data.append(foo)
-
-# # print(data)
-# with open("foo.json", 'w', encoding='utf-8') as jsonf: 
-#     jsonString = json.dumps(data, indent=4)
-#     jsonf.write(jsonString)
-# # with open
-        
-
-
-
 import requests
 import pymongo
 import json
@@ -38,7 +5,7 @@ import json
 myclient = pymongo.MongoClient("mongodb://localhost:27017")
 
 mydb = myclient["DB"]
-block = mydb["Blocks"]
+block = mydb["Blocks_14854500_14855000"]
 user = mydb["User"]
 
 
@@ -46,8 +13,8 @@ headers = {"X-API-Key": "MJR9J19aQ2DKtfoY69Qe2DrhjmufP6IQa46HeHWlNGd6TmaOyMP3RKt
 url = "https://deep-index.moralis.io/api/v2/haoxiao.eth/nft/transfers?chain=eth"
 
 
-for index in range(12000000, 12000100):
-
+for index in range(14854500, 14855000):
+    print(index)
     data = {}
     transaction = []    # print(index)
     url = "https://deep-index.moralis.io/api/v2/block/" + str(index) + "?chain=eth"

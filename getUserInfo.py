@@ -1,7 +1,14 @@
 import json
 import requests
 import csv
+import pymogo
 
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb = myclient["DB"]
+block = mydb["Blocks"]
+user = mydb["User"]
 
 data = []
 
@@ -30,15 +37,15 @@ for items in data:
     foo = json.loads(r.text)
     items["NFTHistory"] = foo
 
-
+    x = user.insert_one(data)
     # print(items)
 
     # print(r.text)
 
 
-with open("UsersInfo.json", 'w', encoding='utf-8') as jsonf: 
-    jsonString = json.dumps(data, indent=4)
-    jsonf.write(jsonString)
+# with open("UsersInfo.json", 'w', encoding='utf-8') as jsonf: 
+#     jsonString = json.dumps(data, indent=4)
+#     jsonf.write(jsonString)
 
 
 
